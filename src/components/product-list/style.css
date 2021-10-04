@@ -1,0 +1,25 @@
+.item_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.item_list p{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.container_list{
+background-color: lightblue;
+border-radius: 10px;
+}
+@media only screen and (min-width:768px){
+    .item_list{
+        width: 60%;
+    }
+    .container_list{
+        width: 50%;
+        margin: 0 auto;
+    }
+}

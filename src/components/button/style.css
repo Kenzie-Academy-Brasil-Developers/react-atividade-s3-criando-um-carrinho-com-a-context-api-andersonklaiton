@@ -1,0 +1,11 @@
+.btnAdd{
+    width: 165px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
